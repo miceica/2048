@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.game-container {
+    margin-top: 40px;
+    padding: 7.5px;
+    background: #bbada0;
+    border-radius: 6px;
+    width: 500px;
+    height: 500px;
+}
+
+.grid-container {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);   
+}
+
+.grid-item {
+    width: 106.25px;
+    height: 106.25px;
+    margin: 7.5px;
+    background-color: rgba(238, 228, 218, 0.35);
+    text-align: center;
+    line-height: 70px;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
